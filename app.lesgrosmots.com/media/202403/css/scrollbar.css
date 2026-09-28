@@ -1,0 +1,67 @@
+:root {
+    --scrollbar-size: 26px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: var(--scrollbar-size);
+    height: var(--scrollbar-size);
+    background: var(--grey-w98);
+}
+
+/* Scrollbar track (fond de la barre) */
+::-webkit-scrollbar-track {
+    background-image: url("https://cdn.prod.website-files.com/62014dd97e014e5a161f0175/6827377973b6cac9f9d26a0f_background-scrollbar.png");
+}
+
+/* Scrollbar thumb (partie déplaçable) */
+::-webkit-scrollbar-thumb {
+    background: var(--grey-w98);
+    box-shadow:
+            inset -1px -2px 3px -1px var(--black-lgm),
+            inset -5px -2px 3px -3px var(--black-lgm),
+            inset 1px 1px 3px 0 var(--white);
+}
+
+/* Click sur le thumb */
+::-webkit-scrollbar-thumb:active {
+    box-shadow:
+            inset 1px 1px 4px var(--black-lgm),
+            inset -1px -1px 3px var(--white);
+}
+
+/* Scrollbar buttons (les flèches haut/bas) */
+::-webkit-scrollbar-button:single-button {
+    height: var(--scrollbar-size);
+    width: var(--scrollbar-size);
+    box-shadow:
+            inset -1px -2px 3px -1px var(--black-lgm),
+            inset -5px -2px 3px -3px var(--black-lgm),
+            inset 1px 1px 3px 0 var(--white);
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'  width='67px' height='41px'> <path fill-rule='evenodd' fill='rgb(20, 20, 20)' d='M33.500,-0.000 L66.1000,41.000 L0.000,41.000 L33.500,-0.000 Z'/> </svg>") no-repeat center;
+    background-size: 50%;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'  width='67px' height='41px'> <path fill-rule='evenodd' fill='rgb(20, 20, 20)' d='M33.500,41.000 L0.000,-0.000 L66.1000,-0.000 L33.500,41.000 Z'/> </svg>") no-repeat center;
+    background-size: 50%;
+}
+
+::-webkit-scrollbar-button:single-button:horizontal:decrement {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='41px' height='67px'> <path fill-rule='evenodd' fill='rgb(20, 20, 20)' d='M-0.000,33.500 L41.000,0.000 L41.000,66.1000 L-0.000,33.500 Z'/> </svg>") no-repeat center;
+    background-size: 28%;
+}
+
+::-webkit-scrollbar-button:single-button:horizontal:increment {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='41px' height='67px'> <path fill-rule='evenodd' fill='rgb(20, 20, 20)' d='M41.000,33.500 L-0.000,66.1000 L-0.000,0.000 L41.000,33.500 Z'/> </svg>") no-repeat center;
+    background-size: 29%;
+}
+
+::-webkit-scrollbar-button:single-button:active {
+    box-shadow:
+            inset 1px 1px 4px var(--black-lgm),
+            inset -1px -1px 3px var(--white);
+}

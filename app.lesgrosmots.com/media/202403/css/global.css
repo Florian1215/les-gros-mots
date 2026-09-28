@@ -1,0 +1,88 @@
+.menu-nav-item.hover, .submenu-nav-item.hover, .title-menu.hover {
+    background-color: #3400fd;
+    color: #fff;
+}
+
+.ui-resizable {
+    position: absolute !important;
+}
+
+.front-z {
+    z-index: 500 !important;
+}
+
+
+.note-content::-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+}
+
+.note-content::-webkit-scrollbar-button:single-button {
+    height: 20px;
+    width: 20px;
+}
+
+.note-content::-webkit-scrollbar-track {
+    background-image: url("https://cdn.prod.website-files.com/62014dd97e014e5a161f0175/684adda570336cb0705262b3_background-scrollbar-note.png") !important;
+}
+
+.note-content::-webkit-scrollbar-thumb, .note-content::-webkit-scrollbar-button:single-button {
+    box-shadow: inset -1px -1px 2px var(--black-lgm), inset -1px -1px 2px -.5px var(--black-lgm), inset 1px 1px 3px var(--white);
+}
+
+.note-content::-webkit-scrollbar-thumb:active {
+    box-shadow: inset 1px 1px 2px var(--black-lgm), inset -1px -1px 2px var(--white);
+}
+
+
+/* ===== lle choix des curseurs ===== */
+.arrow-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/659d51b61695f578cb15502a_fleche2.png'), auto;
+}
+
+.body-1998.finger-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/658079abf338cbf7c33cbd2c_fuck-32.png') 18 2, auto;
+}
+.body-1998.finger-two-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/6582dfb4bffe0e00d268f663_fuck_ferme%CC%81_barre_d%27outil-32.png') 18 2, auto
+}
+
+.body-1998.heart-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/65dca996fd554063a5052df3_coeur_souris-32.png') 16 16, auto;
+}
+
+.body-1998.fart-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/659d51b63184ea5ea7646f2e_coussin2.png') 5 5, auto;
+}
+
+.body-1998.cat-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/6580795a42e3779455010aa7_ico%CC%82ne_chaT_barre-outils-32.png') 16 16, auto;
+}
+.body-1998.cat-two-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/6582beb88850065bae59e5e2_ico%CC%82ne_chat_bouche_ouverte-32.png') 16 16, auto;
+}
+
+.body-1998.fly-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/6580795aa061a4832736fa9a_ico%CC%82ne_papillion_barre_outils-32.png') 16 16, auto;
+}
+.body-1998.fly-two-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/6582bead6cf7286dbc5f6afd_Ico%CC%82ne_papillon_ouvert-32.png') 16 16, auto;
+}
+
+.body-1998.cd-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/6580795a08c58f4badd24813_ico%CC%82ne_CD_barre_outils-32.png') 16 16, auto;
+}
+
+.body-1998.key-cursor{
+    cursor: url('https://uploads-ssl.webflow.com/62014dd97e014e5a161f0175/65eef7418fac9b9b9ccbd378_clef3.png') 3 3, auto;
+}
+
+
+/* ===== les coeurs qui suivent e curseur ===== */
+.trail { /* className for the trail elements */
+    position: absolute;
+    height: 20px; width: 20px;
+    border-radius: 50%; /* Utilisation d'un border-radius pour rendre le cœur */
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="%23FF0000" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>');
+    background-size: cover;
+}

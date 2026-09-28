@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+  <!-- Définition des motifs de cases blanches et grises -->
+  <defs>
+    <!-- Motif pour les cases blanches -->
+    <pattern id="whiteSquare" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="10" height="10" fill="#fff" />
+    </pattern>
+    <!-- Motif pour les cases grises -->
+    <pattern id="graySquare" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="10" height="10" fill="#ccc" />
+    </pattern>
+  </defs>
+  <!-- Création du damier avec les motifs -->
+  <rect x="0" y="0" width="40" height="40" fill="url(#whiteSquare)" />
+  <rect x="0" y="0" width="20" height="20" fill="url(#graySquare)" />
+  <rect x="20" y="20" width="20" height="20" fill="url(#graySquare)" />
+  <rect x="0" y="20" width="20" height="20" fill="url(#whiteSquare)" />
+  <rect x="20" y="0" width="20" height="20" fill="url(#whiteSquare)" />
+</svg>

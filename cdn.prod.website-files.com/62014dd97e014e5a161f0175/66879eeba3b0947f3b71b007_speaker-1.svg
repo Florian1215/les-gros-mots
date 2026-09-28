@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 92">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>speaker-1</title>
+  <g>
+    <path d="M70.5,0,70,92H62V87H50V81H38V74H25V20H36V13H49V7H62V0S70.5-.4065,70.5,0Z"/>
+    <path class="a" d="M33,26v5H50V24H63V13H57v7H44v6S33.16667,25.83333,33,26Z"/>
+    <rect y="31" width="20" height="32"/>
+  </g>
+</svg>

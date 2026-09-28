@@ -1,0 +1,8 @@
+https://lesgrosmotsfinal.webflow.io/ -O ./copie-du-site2 -F "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36" -c1 -%c1 -s0 +*.webflow.io/* +cdn.prod.website-files.com/*
+File generated automatically on Sat, 26 Sep 2026 18:07:40, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+
