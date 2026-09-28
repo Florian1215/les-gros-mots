@@ -1,6 +1,8 @@
+// Racine media/202403/ déduite du src du script (fonctionne en file:// comme en http)
+var MEDIA_BASE = document.currentScript.src.replace(/js\/[^\/]*$/, "");
 let windowHelpN = 1;
 let windowHelpNLoop = 1;
-const audio = new Audio("/app.lesgrosmots.com/media/202403/error.mp3");
+const audio = new Audio(MEDIA_BASE + "error.mp3");
 
 function moveToFront(window) {
     $('.draggable').each(function () {
@@ -200,7 +202,7 @@ $(document).ready(function () {
             img = imgs;
         else
             img = imgs[index];
-        return '/app.lesgrosmots.com/media/202403/phototeque/' + img;
+        return MEDIA_BASE + 'phototeque/' + img;
     }
     function loadFolder(folderName) {
         const imgs = photos[folderName];

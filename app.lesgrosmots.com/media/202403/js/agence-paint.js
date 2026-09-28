@@ -1,9 +1,11 @@
+// Racine media/202403/ déduite du src du script (fonctionne en file:// comme en http)
+var MEDIA_BASE = document.currentScript.src.replace(/js\/[^\/]*$/, "");
 const cursorMap = {
-    brush: 'url("/app.lesgrosmots.com/media/202403/paint-tools/pencil.png") 8 28, auto',
-    pencil: 'url("/app.lesgrosmots.com/media/202403/paint-tools/bombe.png") 14 14, auto',
-    highlighter: 'url("/app.lesgrosmots.com/media/202403/paint-tools/brush.png") 15 25, auto',
-    eraser: 'url("/app.lesgrosmots.com/media/202403/paint-tools/gomme.png") 6 20, auto',
-    bucket: 'url("/app.lesgrosmots.com/media/202403/paint-tools/peinture.png") 10 14, auto',
+    brush: 'url("' + MEDIA_BASE + 'paint-tools/pencil.png") 8 28, auto',
+    pencil: 'url("' + MEDIA_BASE + 'paint-tools/bombe.png") 14 14, auto',
+    highlighter: 'url("' + MEDIA_BASE + 'paint-tools/brush.png") 15 25, auto',
+    eraser: 'url("' + MEDIA_BASE + 'paint-tools/gomme.png") 6 20, auto',
+    bucket: 'url("' + MEDIA_BASE + 'paint-tools/peinture.png") 10 14, auto',
     text: 'text',
     line: 'crosshair',
     rect: 'crosshair',

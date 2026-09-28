@@ -1,9 +1,11 @@
+// Racine media/202403/ déduite du src du script (fonctionne en file:// comme en http)
+var MEDIA_BASE = document.currentScript.src.replace(/js\/[^\/]*$/, "");
 // ========================================== BACKGROUND
 var backgrounds = [
-	"/app.lesgrosmots.com/media/202403/backgrounds/fond_mobile_01.jpg", // CIEL
-	"/app.lesgrosmots.com/media/202403/backgrounds/fond_mobile_02.jpg",
-	"/app.lesgrosmots.com/media/202403/backgrounds/fond_mobile_03.jpg",
-	"/app.lesgrosmots.com/media/202403/backgrounds/fond_mobile_04.jpg"
+	MEDIA_BASE + "backgrounds/fond_mobile_01.jpg", // CIEL
+	MEDIA_BASE + "backgrounds/fond_mobile_02.jpg",
+	MEDIA_BASE + "backgrounds/fond_mobile_03.jpg",
+	MEDIA_BASE + "backgrounds/fond_mobile_04.jpg"
 ];
 
 function refreshBackground()

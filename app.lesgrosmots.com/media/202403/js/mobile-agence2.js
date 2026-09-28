@@ -1,3 +1,5 @@
+// Racine media/202403/ déduite du src du script (fonctionne en file:// comme en http)
+var MEDIA_BASE = document.currentScript.src.replace(/js\/[^\/]*$/, "");
 // Agence logos
 var logoFiles = [
 	"cniel.webp",
@@ -36,7 +38,7 @@ var logoFiles = [
 	"valdeloire.png",
 	"compagnie.png"
 ];
-var logoBaseUrl = "/app.lesgrosmots.com/media/202403/logos/";
+var logoBaseUrl = MEDIA_BASE + "logos/";
 var logosParent = $("#agence-logos");
 var marquesParent = $("#agence-marques");
 var logoImg = $(".mobile-agence-logoimg");
@@ -213,7 +215,7 @@ _selectExpertise(0);
 
 // ========================================== PHOTOTHEQUE
 const photosNB = 18;
-const baseUrl = "/app.lesgrosmots.com/media/202403/photos-locaux/";
+const baseUrl = MEDIA_BASE + "photos-locaux/";
 const photoArea = $(".mobile-locauxphoto--photoarea");
 const photoThumbs = $(".mbile-locauxphoto-thumb");
 const photoItems = $(".mbile-locauxphoto-items");
