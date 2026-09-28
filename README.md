@@ -6,6 +6,12 @@ Le site a été conçu sur [Webflow](https://webflow.com) (publié sur `lesgrosm
 
 L'interface du site reprend les codes d'un bureau d'ordinateur : dossiers, fenêtres, corbeille, fiches équipe, etc.
 
+![Page Home](.git-medias/homepage.png)
+![Page Agence](.git-medias/c57230b7-330f-4dbb-acb2-18f2c025008a.webp)
+![Page Agence/psd](.git-medias/8e22dd76-1eb1-4dd1-abd2-87902f4ccc33.webp)
+![Page very safe place](.git-medias/21ecd92d-4e36-4120-ac87-407f368238b9.webp)
+![Page Agence2](.git-medias/5868af30-4a2f-4b68-b873-fc66b816447c.webp)
+
 ## Structure du projet
 
 ```
